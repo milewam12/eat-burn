@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <title>Eat & Burn - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+ 
+
+</head>
+<body>
+
+
+  <nav class="black" role="navigation">
+    <div class="row">
+      <div class="col l4 s8">
+        <div class="nav-wrapper container">
+
+        <img class="eatLogo" src="images/logo.png" alt="logo">
+
+        </div>
+      </div>
+      <div class="col l8 s4">
+         <ul id="nav-mobile" class="right">
+        <li>
+          <a  id="btnLogout" class="hide">Log out</a></li>
+          </ul>
+        <div class="card-panel red" id=remove style="padding-bottom: 39px;">
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+
+    
+<div id="app">
+  <div class="parallax-container col s12 m12"    >
+
+    <div class="parallax"><img class="backgroundImg" src="images/featureImg.png" alt="Unsplashed background img 1"></div>    
+        <div class="caption center-align" id="moveDown">
+          <span align="center" id="welcome"></span>
+            <p class="yourFood">YOUR FOOD</p>
+
+                <div class="input-field col s6 container">
+          <input id="user-input" type="text" class="validate" placeholder="What do you want to eat today?">
+        </div>
+
+            <a class="waves-effect waves-light red btn-large" id="download-button">Search</a>
+
+            <h3 class="light grey-text text-lighten-3" id="howMany">How many calories are you about to intake?</h3>
+            <h5 class="light grey-text text-lighten-3" id="advice">Get advice and a full workout to help you stay on track and fit.</h5>
+        </div>
+
+             
+
+    </div>
+
+    
+
+
+  <div class="section" style="padding-top: 0px; padding-bottom: 0px; ">
+
+      <div class="row" id="overRow" style="padding-bottom: 0px; ">
+        <div class="col s12 m6 red" style="height: 650px;padding-left: 0px;padding-right: 0px;padding-top:10px;">
+            <h5  id="user-input-display" class="userTypeDisplay">Food Displays Here</h5>
+
+            <div class="card-panel black col s12 m12 row" style="margin-bottom: 50px;" id="overWriteCard" >
+                <div class="center white-text">
+                <p class="caloriesW">Calories!</p>
+                <p id="display-calories" id="calDisplay" class="blockquote"> 0000 </p>
+                </div>
+            </div>
+   
+            <div>
+            <h4 class="nutFacts">Nutrition Facts</h4>
+            <table id="page">
+            <tr style="border-bottom: 4pt solid black">
+             <td style="margin-bottom:0px"><span class="info"> Food </span></td>
+             <td><span id="itemName" class="info">  </span> </td>
+             </tr>
+             <tr style="border-bottom: 4pt solid black">
+             <td><span class="info"> Servings </span></td>
+             <td><span id="serv" class="info"> 00 </span> </td>
+             </tr>
+             <tr style="border-bottom: 4pt solid black">
+             <td><span class="info"> Fat </span></td>
+             <td><span id="fat" class="info"> 000 </span> </td>
+             </tr>
+            </table>
+            </div>
+        
+        </div>
+
+        <div class="col s12 m6" id="vidDiv">
+            <h5 class="center">Burn the calories</h5>
+
+            <p class="howTo">How to Burn it!</p>
+
+    <div class="col s12 m6" id="videos">
+        <div class="food-content">
+
+            <div class="carousel" id="carSize">
+              <a class="carousel-item" href="#one!">
+                <iframe id="0" width="150" height="150" src="https://www.youtube.com/embed/KjtJgTBeyL4" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#two!">
+                <iframe id="1" width="150" height="150" src="https://www.youtube.com/embed/4_KhMBLVX1Ihttps://www.youtube.com/embed/B_wUABaMqs0" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#three!">
+                <iframe id="2" width="150" height="150" src="https://www.youtube.com/embed/3_Q-yYfjeBM" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#four!">
+                
+              <iframe id="3" width="150" height="150" src="https://www.youtube.com/embed/ijNdZZ4hgw4" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#five!">
+                
+              <iframe id="4" width="150" height="150" src="https://www.youtube.com/embed/6bKbFb9Z5oc" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#one!">
+                
+              <iframe id="5" width="150" height="150" src="https://www.youtube.com/embed/0aNNYEUARAk" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#two!">
+                <iframe id="6" width="150" height="150" src="https://www.youtube.com/embed/4_KhMBLVX1I" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#three!">
+                
+              <iframe id="7" width="150" height="150" src="https://www.youtube.com/embed/cGTdFbFLdDM" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#four!">
+                
+              <iframe id="8" width="150" height="150" src="https://www.youtube.com/embed/G_rL_k6JcWs" frameborder="0" allowfullscreen></iframe>
+              </a>
+              <a class="carousel-item" href="#five!">
+                
+              <iframe id="9" width="150" height="150" src="https://www.youtube.com/embed/j0-QtLs71wQ" frameborder="0" allowfullscreen></iframe>
+              </a>
+            </div>
+          </div>
+        </div>
+  </div>
+          </div>
+        </div>
+      </div>
+</div>
+  <div class="page-footer black" id="footerH">
+        <div class="col l12 s12">
+          <p class="yourMeal">Your Meal</p>
+
+          <div id="meal">
+      <table id="mealTable" width="75%">
+        <tr>
+          <th class="mealC">Items</th><th>Calories</th>
+        </tr>
+        <tr>
+          <th class="mealC">Total Calories</th><th class="resetOne"><font id="totalCalories"></font></th>
+        </tr>
+      </table>
+          <div id="alignRight">
+            <a class="waves-effect waves-light red btn-large"  id="resetBTN">Reset</a>
+          </div>
+           </div>
+      </div>    
+  </div>
+
+    
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script src="js/logic.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+  <script src="js/carousel.js"></script>
+
+
+
+  <script>
+      $(document).ready(function(){
+        $(".carousel").carousel();
+      });
+  </script>
+
+</body>
+</html>

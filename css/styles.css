@@ -1,0 +1,412 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: brandonGrotesqueMed;
+    src: url(../fonts/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: brandonGrotesqueReg;
+    src: url(../fonts/Brandon_reg.otf);
+}
+
+@font-face {
+    font-family: brandonGrotesqueLight;
+    src: url(../fonts/Brandon_light.otf);
+}
+
+/* index/sign up page */
+
+#userAuth  {
+    font-family:brandonGrotesqueMed;
+    color:black;
+    padding: 40px 0px 70px 0px
+}
+
+#txtPassword{
+      height: 50px;
+      width: 1000px;
+      background-color: Black;
+      color: #ef3d23 !important;
+      padding-left: 20px;
+      margin-right: 20px;
+      font-size: 20px;
+      border: none;
+      box-shadow: none;
+    } 
+
+#txtEmail{
+      height: 50px;
+      width: 1000px;
+      background-color: Black;
+      color: #ef3d23 !important;
+      padding-left: 20px;
+      margin-right: 20px;
+      font-size: 20px;
+      border: none;
+      box-shadow: none;
+    } 
+
+
+
+/* eatBurn page */
+
+.medium {
+    font-family:brandonGrotesqueMed;
+}
+
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.yourFood {
+    color: #ef3d23;
+    font-size: 60px;
+    font-family:brandonGrotesqueMed;
+}
+
+
+form input {
+    color: #ef3d23 !important;
+}
+
+#download-button {
+    font-family:brandonGrotesqueMed;
+    font-size: 30px;
+}
+
+#alignRight{
+    float: right;
+    margin-right: 70px;
+    margin-top: 40px;
+
+}
+
+#howMany {
+    font-family:brandonGrotesqueMed;
+    font-size: 30px;
+    color: white;
+}
+
+#advice {
+    font-family:brandonGrotesquelight;
+    font-size: 25px;
+    color: white;
+}
+
+#moveDown {
+    margin-top: 50px;
+}
+.mealBox {
+    margin-top: 1751px;
+    position: absolute;
+}
+
+.mealC {
+    color: white;
+}
+
+#overWriteCard {
+    padding: 0px;
+}
+
+#overRow {
+    margin-bottom: 0px;
+}
+
+#user-input{
+      height: 50px;
+      width: 500px;
+      background-color: white;
+      color: #ef3d23 !important;
+      padding-left: 20px;
+      margin-right: 20px;
+      font-size: 20px;
+      border: none;
+    } 
+
+.backgroundImg {
+    z-index: -20;
+    position: absolute;
+    
+}
+
+.yourMeal {
+    font-size: 70px;
+    color: #ef3d23;
+    font-family:brandonGrotesqueMed;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#footerH {
+    position: absolute;
+    width:100%;
+
+}
+
+.copyright {
+    color: black;
+    font-size: 15px;
+    font-family:brandonGrotesqueReg;
+    text-align: center;
+    margin-top: 10px;
+}
+
+  .eatLogo {
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+  }
+
+  #foodShow {
+    align: left;
+    font-size: 50px;
+  }
+
+  .userTypeDisplay{
+    font-size: 50px;
+    font-family:brandonGrotesqueMed;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: black;
+  }
+
+  .userMenuDisplay{
+    font-size: 40px;
+    font-family:brandonGrotesqueMed;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  #display-calories {
+    font-size: 100px;
+    font-family:brandonGrotesqueMed;
+    text-align: left;
+    margin-left: 15px;
+  }
+.caloriesW {
+    font-size: 40px;
+    position: absolute;
+    font-family:brandonGrotesqueMed;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.howTo {
+    font-size: 50px;
+    font-family:brandonGrotesqueMed;
+    color: black;
+}
+
+.nutFacts {
+    font-size: 50px;
+    font-family:brandonGrotesqueMed;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: black;
+    
+}
+
+.info {
+    font-size: 25px;
+    font-family: brandonGrotesqueMed;
+    margin-left: 15px;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 5px solid black;
+  }
+
+#page td {
+   padding:0; margin:0;
+}
+
+#carSize {
+    width: 600px;
+}
+
+.resetOne {
+    color: white;
+}
+
+#mealTable {
+    font-family: brandonGrotesqueReg;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+#vidDiv {
+     height: 300px; 
+     padding-left: 30px;
+     padding-right: 30px;"
+}
+
+#resetBTN {
+    font-family: brandonGrotesqueMed;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#btnLogout {
+    font-family: brandonGrotesqueMed;
+    font-size:25px;
+}
+
+
+@media screen and (max-width: 600px){
+    .parallax-container {
+        overflow: inherit;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+  #remove {
+  visibility:hidden;
+  }
+  }
+
+@media screen and (max-width: 975px) {
+  .caloriesW {
+  font-size: 30px;
+  margin-left: 300px;
+  }
+  }
+
+  @media screen and (max-width: 800px) {
+  .caloriesW {
+  font-size: 30px;
+  margin-left: 250px;
+  }
+  }
+
+  @media screen and (max-width: 700px) {
+  .caloriesW {
+  font-size: 30px;
+  margin-left: 200px;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+  .caloriesW {
+  font-size: 30px;
+  margin-left: 270px;
+  }
+  }
+
+@media screen and (max-width: 950px) {
+  #display-calories {
+  font-size: 80px;
+  margin-left: 10px;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+  #display-calories {
+  font-size: 100px;
+  margin-left:10px;
+  }
+  }
+
+@media screen and (max-width: 950px) {
+  .userTypeDisplay {
+  font-size: 40px;
+  margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .nutFacts {
+  font-size: 40px;
+  margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #user-input {
+  width: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .backgroundImg {
+  width: 100%;
+  height: auto;
+  }
+}
+
+ @media screen and (max-width: 600px) {
+  #moveDown {
+  margin-top: 0px;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+  .userTypeDisplay {
+  margin-top: 0px;
+  }
+  }
+
+   @media screen and (max-width: 1100px) {
+  #carSize {
+  width: 480px;
+  }
+  }
+
+  @media screen and (max-width: 900px) {
+  #carSize {
+  width: 400px;
+  }
+  }
+
+  @media screen and (max-width: 750px) {
+  #carSize {
+  width: 300px;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+  #carSize {
+  width: 500px;
+  }
+  }
+
+  @media screen and (max-width: 500px) {
+  #carSize {
+  width: 400px;
+  }
+  }
+  @media screen and (max-width: 400px) {
+  #carSize {
+  width: 300px;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+  #vidDiv {
+  height: 500px;
+  }
+  }
+
+
+  /* Thanks page */
+
+  #thanks {
+    font-family: brandonGrotesqueMed;
+    font-size: 70px;
+    text-shadow: 2px 2px #000000;
+  }
+   
+  #stay {
+    font-family: brandonGrotesqueMed;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: black;
+  }

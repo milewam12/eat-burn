@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <title>Eat & Burn </title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+</head>
+
+<body>
+
+
+<nav class="black" role="navigation">
+    <div class="row">
+      <div class="col l4 s8">
+        <div class="nav-wrapper container">
+
+        <img class="eatLogo" src="images/logoSmaller.png" alt="logo">
+
+        </div>
+      </div>
+      <div class="col l8 s4">
+         <ul id="nav-mobile" class="right">
+        <li>
+          <!--<a  id="btnLogout" class="hide">Log out</a></li>-->
+          </ul>
+        <div class="card-panel red" id=remove style="padding-bottom: 39px;">
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- form-->
+  <div id="userAuth">
+  <div class="container" id="validation">
+
+    <div class="row">
+      <form class="col s12">
+
+       
+        <div class="row">
+            <h2 align="center">Welcome to Eat & Burn</h2>
+            <h4 align="center"> Sign up to keep track of your calories and get fit!</h4>
+            <br>
+            <br>
+            <span id="error"></span>
+          <div class="input-field col s12">
+            <input id="txtEmail" id="user-input-email" type="email" placeholder="email">
+          </div>
+        </div>
+
+             <div class="row">
+          <div class="input-field col s12">
+            <input id="txtPassword" type="password" placeholder="Password">
+            <p class="light italic"> * Minimum six characters length</p>
+          </div>
+        </div>
+        <br>
+
+        <a id="btnLogin" class="btn-large waves-effect waves-light red  ">Log in</a>
+
+        <a id="btnSignup" class="btn-large waves-effect waves-light black ">Sign up</a>
+      </form>
+    </div>
+
+  </div>
+  </div>
+
+
+  <!--- form ends-->
+<footer class="page-footer black" id="footerF">
+       <div class= "card-panel red"> 
+      <p class="copyright">© 2017 Eat & Burn </p>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script src="js/logic.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
